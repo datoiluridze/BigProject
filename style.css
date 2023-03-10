@@ -39,7 +39,7 @@ nav a{
 nav a:hover{
     background: url("../images/georgiaflag2.png");
     background-repeat: no-repeat;
-    background-size: 100% 35px;
+    background-size: 100% 100%;
 }
 .slider1{
     width: 100%;
