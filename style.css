@@ -1,0 +1,323 @@
+body{
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+}
+
+h2{
+    text-align: center;
+    background-color: red;
+    margin: 10px;
+    border-radius: 30px;
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2 a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: red;
+    height: 120px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+}
+nav a{
+    color: black;
+    padding: 10px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(128, 128, 128, 0.459),0px 6px 20px 0px rgba(128, 128, 128, 0.459);
+}
+.active{
+    background-color: chartreuse;
+}
+nav a:hover{
+    background: url("../images/georgiaflag2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 35px;
+}
+.slider1{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background:url(../images/georgiamap.svg);
+    background-size: 100% 750px;
+}
+.rawa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(34, 201, 34);
+}
+.rawa1{
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    width:50%;
+    float: left;
+    color: white;
+}
+.rawa1 p{
+    margin: 10px;
+    font-size: 20px;
+}
+.rawa-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.rawa-surati img{
+    width: 100%;
+}
+.kaxeti{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(235, 62, 19);
+}
+.kaxeti1{
+    width:50%;
+    float: left;
+    color: white;
+}
+.kaxeti-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.kaxeti-surati img{
+    width: 100%;
+    height: auto;
+}
+.kaxeti1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.imereti{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(75, 75, 75);
+}
+.imereti1{
+    width:50%;
+    float: left;
+    color: white;
+}
+.imereti-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.imereti-surati img{
+    width: 100%;
+}
+.imereti1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.afxazeti{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(37, 192, 50, 0.555);
+}
+.afxazeti1{
+    width:50%;
+    float: left;
+    color: white;
+}
+.afxazeti-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.afxazeti-surati img{
+    width: 100%;
+    height: auto;
+    right: 100px;
+}
+.afxazeti1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.qartli{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 0, 0);
+}
+.qartli1{
+    width:50%;
+    float: left;
+    color: white;
+}
+.qartli-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.qartli-surati img{
+    width: 100%;
+    height: auto;
+    right: 100px;
+}
+.qartli1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.svaneti{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(66, 201, 62);
+}
+.svaneti1{
+    width:50%;
+    float: left;
+    color: white;
+}
+.svaneti-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.svaneti-surati img{
+    width: 100%;
+    float: right;
+}
+.svaneti1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.guria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(66, 201, 62);
+}
+.guria1{
+    width:50%;
+    float: left;
+    color: white;
+}
+.guria-surati{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.guria-surati img{
+    width: 100%;
+}
+.guria1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.logo{
+    margin-right: auto;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.text{
+    text-align: center;
+    background-color: white;
+    color: red;
+    font-size: 25px;
+}
+.tbilisi{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(38, 175, 33);
+}
+.tbilisi1{
+    font-size: 25px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0,3s ease;    
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+}

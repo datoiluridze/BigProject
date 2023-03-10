@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/slider.css">
+    <style>
+        .mySlides {display:none;}
+        </style>
+    <link rel="stylesheet" href="css/bpg-extrasquare-mtavruli.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kingdom of georgia</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="images/georgiaminiflag.png">
+        </div>
+        <nav>
+            <a class="active" href="index.html">მთავარი</a>
+            <a href="qartli.html">ქართლი</a>
+            <a href="kaxeti.html">კახეთი</a>
+            <a href="imereti.html">იმერეთი</a>
+            <a href="guria.html">გურია</a>
+            <a href="samegrelo.html">სამეგრელო</a>
+            <a href="rawa.html">რაჭა</a>
+            <a href="afxazeti.html">აფხაზეთი</a>
+            <a href="svaneti.html">სვანეთი</a>
+        </nav>
+    </header>
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/აფხაზეთი.jpg" style="width:100%">
+        <img class="mySlides" src="images/რაჭა-1.jpg" style="width:100%">
+        <img class="mySlides" src="images/კახეთი-2.jpg" style="width:100%">
+        <img class="mySlides" src="images/ქართლი.jpg" style="width:100%">
+        <img class="mySlides" src="images/სვანეთი.jpg" style="width:100%">
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      <h2>welcome kingdom of georgia</h2>
+      <div class="text">
+      <p>მოგესალმებით მეგობრებო თქვენ ამ საიტზე წაიკითხავთ პატარა ინფორმაციებს საქართველოს კუთხეების შესახებ. 
+        ვიცი ეს არ არის იმდენი ინფორმაცია რომ ყველაფერი გაიგოთ კუთხეების შესახებ მაგრამ იმედია ისიამოვნებთ.</p>
+    </div>
+    <h2>თბილისის დაარსების ისტორია</h2>
+    <section class="tbilisi">
+        <article class="tbilisi1">
+                    <p>ლეგენდის თანახმად, თბილისის ტერიტორია ტყით ყოფილა დაფარული, ქართველ მეფეს (ერთ-ერთი ვარიანტით, ვახტანგ I გორგასალს) ნადირობის დროს შველი დაუჭრია, 
+                        შველი ცხელ წყაროში განბანილა და განკურნებული გაქცევია მონადირეებს (სხვა ვარიანტით, მეფის მიმინო თავს დასცხრომია ხოხობს, ფრინველები ცხელ წყაროში ჩაცვივნულან და გაფუფქულან). 
+                        ცხელი წყლის სამკურნალო თვისებებისა და ადგილის ხელსაყრელი მდებარეობის გამო მეფეს ტყე გაუკაფავს და ქალაქი გაუშენებია. „თბილისი“ — „თბილი“ (ძვ. ქართულად „ტფილი“) 
+                        მინერალური წყაროების გამო უწოდეს ქალაქს. შემდგომში ამ ადგილზე გოგირდის აბანოები გაშენდა. აღნიშნული ადგილი თბილისის ისტორიული უბანი — აბანოთუბანია.</p>
+                </article>
+            </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>about site</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">report a bug</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>another</h4>
+                    <ul>
+                        <li><a href="#">last edited:3/2/2023</a></li>
+                        <li><a href="#">mobile version</a></li>
+                        <li><a href="#">creators</a></li>
+                        <li><a href="#">statistic</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <a href="https://www.facebook.com/groups/1656335054814203" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+</body>
+</html>
