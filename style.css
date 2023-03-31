@@ -37,7 +37,7 @@ nav a{
     background-color: chartreuse;
 }
 nav a:hover{
-    background: url("../images/georgiaflag2.png");
+    background: url("https://datoiluridze.github.io/BigProject/images/georgiaflag2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
